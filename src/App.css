@@ -434,4 +434,15 @@ testimonial */
 .popular__food{
   width: 100px;
   height: 200px;
+  border-radius: 100px;
+}
+/* category food */
+.category__img{
+  height: 180px;
+  width: 200px;
+  margin-left: 45px;
+  border-radius: 25px;
+  margin-top: -20px;
+  
+ 
 }
