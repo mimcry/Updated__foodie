@@ -9,7 +9,7 @@ function Commonsection() {
     <Navbar/>
    
 
-<Card  sx={{maxwidth:330}}><CardMedia   component="img"
+<Card  sx={{maxwidth:330,}}><CardMedia   component="img"
         alt="green iguana"
         height="400"
         image="https://live.staticflickr.com/65535/48692487246_ef22950c50_b.jpg"/>
@@ -18,7 +18,8 @@ function Commonsection() {
           color:"white",
           marginTop:"-150px",
           fontSize:"3.5rem",
-          textShadow:"3px 3px #df2020"
+          textShadow:"3px 3px #df2020",
+          
         }}>Burger</Typography>
        
         </Card>

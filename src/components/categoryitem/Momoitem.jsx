@@ -42,9 +42,9 @@ export default function BasicModal() {
     <div>
       <Button onClick={handleOpen}>
         <Fooditem 
-              name="Burger"
-             image="https://img.freepik.com/premium-photo/fresh-tasty-homemade-burger-wooden-table_147620-1307.jpg?w=996"
-              category="Visit the various types of Burger"/>
+              name="Momo"
+              image="https://img.freepik.com/premium-photo/traditional-dumpling-momos-food-from-nepal-served-with-tomato-chutney-moody-background-selective-focus_466689-29342.jpg?w=1060"
+              category="Visit the various types of Momos"/>
       </Button>
       <Modal
         open={open}
@@ -72,10 +72,10 @@ export default function BasicModal() {
          <Box sx={{display:"flex"}}><Grid container spacing={0}>
   
          <Grid item lg={2} md={4} xs={6}>  <Category 
-          title="Veg"
-          image="https://img.freepik.com/free-photo/big-mac-burger-potatoes-sticks-dark-wooden-board_114579-2362.jpg?w=996&t=st=1665225977~exp=1665226577~hmac=abcdd3cd95678e0e61a8919dad679068c39c97d3614870d43097c4f594fdf640"
+          title="Chicken "
+          image="https://img.taste.com.au/mdKxKxoR/taste/2016/11/chicken-momos-with-tomato-achar-46671-1.jpeg"
           price="Rs 120"
-          subtitle="With cheese"
+          subtitle="Steam "
         />
       
       </Grid>

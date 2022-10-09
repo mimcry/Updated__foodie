@@ -2,13 +2,18 @@ import { ClassNames } from "@emotion/react";
 import { Paper, CardActionArea, CardContent, CardMedia, Typography,Card,Box } from "@mui/material";
 import React from "react";
 
-function CategoryItem({ name, image, category}) {
+function  Fooditem({ name, image, category}) {
   return (
-    <Paper elevation={20}
+    <Paper elevation={24}
       sx={{
-        maxWidth: 200,
+        maxWidth: 210,
+        maxHeight:258,
         backgroundColor: '#fde4e4',
-        borderRadius:"25px"
+        borderRadius:"25px",
+        transition: "0.4s",
+        "&:hover": {
+          transform: "translateY(-30px)",
+        },
       }}
     
     >
@@ -21,10 +26,10 @@ function CategoryItem({ name, image, category}) {
           alt="food item"
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h5" component="div" sx={{color:"black",fontFamily:"mono-space"}}>
             {name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" >
        {category}
           </Typography>
         </CardContent>
@@ -33,4 +38,4 @@ function CategoryItem({ name, image, category}) {
   );
 }
 
-export default CategoryItem;
+export default Fooditem;

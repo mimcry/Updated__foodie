@@ -16,6 +16,18 @@ import TestmonialSlider from "../components/UI/slider/TestmonialSlider.jsx";
 import Popular_categories from "./Popular_categories";
 import PhoneIcon from "@mui/icons-material/Phone";
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import Momoitem from './categoryitem/Momoitem';
+
+import Burgeritem from './categoryitem/Burgeritem';
+import Khajasetitem from './categoryitem/Khajasetitem'
+import Pizzaitem from './categoryitem/Pizzaitem'
+import Chickenitem from './categoryitem/Chickenitem'
+import Coffeeitem from './categoryitem/Coffeeitem'
+import Sandwichitem from './categoryitem/Sandwichitem'
+import Parothaitem from './categoryitem/Parothaitem'
+import Chowmeinitem from './categoryitem/Chowmeinitem'
+import Briyaniitem from './categoryitem/Briyaniitem'
+import Colddrinksitem from './categoryitem/Colddrinksitem'
 export default function Home() {
   return (
     <div className="container mt-2">
@@ -186,87 +198,43 @@ export default function Home() {
             Category
           </Typography>
         </Typography>
-        <Grid container spacing={3}>
+        <Grid container spacing={3} >
+          
+          
+         
           <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVzc2VydHxlbnwwfHwwfHw%3D&w=1000&q=80"
-              category="Visit the various types of food"
+            <Khajasetitem
             />
           </Grid>
           <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="khajaset.png"
-              category="Visit the various types of food"
+            <Parothaitem
+            />
+          </Grid>
+          {/* <Grid item lg={2} md={4} xs={6}>
+            <Briyaniitem
+            /> 
+          </Grid>
+          <Grid item lg={2} md={4} xs={6}>
+            <Chickenitem
+            />
+          </Grid> */}
+          <Grid item lg={2} md={4} xs={6}>
+            <Chowmeinitem
             />
           </Grid>
           <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="chickenchilli.png"
-              category="Visit the various types of food"
+            <Sandwichitem
             />
           </Grid>
           <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="chickenbiryani.png"
-              category="Visit the various types of food"
+            <Coffeeitem
             />
           </Grid>
           <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="sekwa.jpg"
-              category="Visit the various types of food"
+            <Colddrinksitem
             />
           </Grid>
-          <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="product1.1.jpg"
-              category="Visit the various types of food"
-            />
-          </Grid>
-          <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="product01.jpg"
-              category="Visit the various types of food"
-            />
-          </Grid>
-          <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="khajaset.png"
-              category="Visit the various types of food"
-            />
-          </Grid>
-          <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="khajaset.png"
-              category="Visit the various types of food"
-            />
-          </Grid>
-          <Grid item lg={2} md={4} xs={6}>
-            <CategoryItem
-              color="success.main"
-              name="Burger"
-              image="khajaset.png"
-              category="Visit the various types of food"
-            />
-          </Grid>
+          
         </Grid>
       </div>
       <div>

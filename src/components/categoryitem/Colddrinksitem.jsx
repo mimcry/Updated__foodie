@@ -42,9 +42,9 @@ export default function BasicModal() {
     <div>
       <Button onClick={handleOpen}>
         <Fooditem 
-              name="Burger"
-             image="https://img.freepik.com/premium-photo/fresh-tasty-homemade-burger-wooden-table_147620-1307.jpg?w=996"
-              category="Visit the various types of Burger"/>
+              name="Cold Drink"
+                            image="https://img.freepik.com/free-photo/mojito-rum-cola-alochol-cocktail-served-highball-glasses_8353-6098.jpg?w=1060&t=st=1665228145~exp=1665228745~hmac=09cb898e5acc8a2b0e468c632d9d5b4631d6c6179d5e1d346d29730986d95a89"
+              category="Visit the various Colddrimks"/>
       </Button>
       <Modal
         open={open}
@@ -64,7 +64,7 @@ export default function BasicModal() {
             src="https://scontent.fktm6-1.fna.fbcdn.net/v/t1.15752-9/306322859_1152926112244740_5963128937608353779_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qmi-xv_RpuEAX8sakt9&_nc_ht=scontent.fktm6-1.fna&oh=03_AVK-BYXmFVUgFxRDtbO7hXwmBuvGiiuGhT4NRE4DRNVB5w&oe=634939EC"
             alt=""
           />
-       <Typography sx={{textAlign:"center ",fontSize:"2.2rem", textShadow:"2px 3px gray",color:"#df2020"}}> Foodie's Momo Item</Typography>
+       <Typography sx={{textAlign:"center ",fontSize:"2.2rem", textShadow:"  1px 1px 2px black, 0 0 25px blue, 0 0 5px white",color:"#df2020",fontFamily:"mono-space"}}> Foodie's Momo Item</Typography>
        
           </Typography>
 
@@ -72,10 +72,10 @@ export default function BasicModal() {
          <Box sx={{display:"flex"}}><Grid container spacing={0}>
   
          <Grid item lg={2} md={4} xs={6}>  <Category 
-          title="Veg"
-          image="https://img.freepik.com/free-photo/big-mac-burger-potatoes-sticks-dark-wooden-board_114579-2362.jpg?w=996&t=st=1665225977~exp=1665226577~hmac=abcdd3cd95678e0e61a8919dad679068c39c97d3614870d43097c4f594fdf640"
+          title="Chicken "
+          image="https://img.taste.com.au/mdKxKxoR/taste/2016/11/chicken-momos-with-tomato-achar-46671-1.jpeg"
           price="Rs 120"
-          subtitle="With cheese"
+          subtitle="Steam "
         />
       
       </Grid>

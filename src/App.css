@@ -130,6 +130,7 @@
   font-weight: 600;
   font-size: 1rem;
   margin-bottom: 15px;
+  
 }
 
 .footer__logo p {
@@ -360,27 +361,18 @@ testimonial */
   margin-top: -20px;
 }
 
-.pop button {
-  position: absolute;
-  margin-top: -40px;
-  border: none;
-  padding: 7px 15px;
-  background-color: #df2020;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  transition: 0.4s;
-  margin-left: 100px;
-}
-.pop button:hover {
-  transform: scale(1.1);
-}
-@media only screen and (max-width: 1500px) {
+
+@media only screen and (max-width: 400px) {
   .pop {
-    width: 10px;
-    height: 10px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 30px;
     margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  .kando {
+   font-size: 2.11rem;
   }
 }
 /* categories */
@@ -438,11 +430,19 @@ testimonial */
 }
 /* category food */
 .category__img{
-  height: 180px;
-  width: 200px;
-  margin-left: 45px;
+  height: 80px;
+  width: 100px;
+  margin-left: 30px;
   border-radius: 25px;
   margin-top: -20px;
+
   
  
+}
+.popularcategoryitem{height: 80px;
+  width: 220px;
+  height: 200px;
+  margin-left: 0px;
+  border-radius: 500px;
+  
 }
